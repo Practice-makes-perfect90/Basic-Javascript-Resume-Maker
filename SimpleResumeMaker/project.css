@@ -1,0 +1,37 @@
+#byr{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+#manName{
+    text-align: center;
+    color:red;
+}
+#sectNum{
+
+    text-align: center;
+    color:red;
+}
+
+#myDiv{
+    align-content: right;
+    color: blue;
+    background-color: blue;
+
+}
+
+#divForRight {
+    float: right;
+    width: 83%;
+    padding-bottom:20px;
+    padding-right: 30px;
+}
+
+#divForLeft{
+    float: left;
+    width: 15%;
+    clear:both;
+}

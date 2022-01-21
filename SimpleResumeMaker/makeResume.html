@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        WEB 115 Final Project
+    </title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+
+</head>
+
+<body>
+    <script src = "projectJS.js"></script>
+
+    <div class="myDiv">
+
+    
+    <h1 id="byr">Build your resume</h1>
+    </div>
+
+    <form id ="myForm">
+        <p>Enter your full name</p>
+        <input type = "text" size="80" id = "myName" ></br>
+        <p>Enter your full address</p>
+        <input type = "text" size="80" id ="myAddress" ></br>
+        <p>Enter your phone number</p>
+        <input type = "text" size="80" id ="phoneNumber" ></br>
+        <p>Enter your email</p>
+        <input type = "text" size="80" id = "email" ></br>
+
+        <p>Enter your personal information</p>
+        <textarea rows="10" cols="20" id="personinfo" wrap="hard" ></textarea></br>
+        <p>Enter your career objectives</p>
+        <textarea rows="10" cols="20" id="careerObj" wrap="hard" ></textarea></br>
+        <p>Enter your educational background</p>
+        <textarea rows="10" cols="20" id="education" wrap="hard"></textarea></br>
+
+        <!--maybe use two date inputs, one for hire date and the other for last day -->
+        <p>Enter your Employment History, most recent first</p>
+        <input type="date" id="workDateHire1">
+        <input type="date" id="workDateQuit1"></br>
+        <textarea rows="8" cols="15" id="work1" wrap="hard"></textarea></br>
+
+        <input type="date" id="workDateHire2">
+        <input type="date" id="workDateQuit2"></br>
+        <textarea rows="8" cols="15" id="work2" wrap="hard"></textarea></br>
+
+        <input type="date" id="workDateHire3">
+        <input type="date" id="workDateQuit3"></br>
+        <textarea rows="8" cols="15" id="work3" wrap="hard"></textarea></br>
+
+        <p>Professional references</p>
+        <textarea rows="10" cols="20" id="reference" wrap="hard"></textarea></br>
+
+         
+        <input type = "button" id ="myButton" value = "create resume" onclick="resumeWindow()">
+    </form></br>
+
+<!----
+    <div id="divForRight"></div>
+    <div id="divForLeft"></div>
+------>
+
+  
+
+</body>
+
+</html>
